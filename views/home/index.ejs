@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%- include ../common/head.ejs %>
+    <script type="text/javascript" src="javascripts/home.js"></script>
+  </head>
+  <body>
+    <div class="page-div">
+      <div class="page-overlay">
+        <div class="page-pattern">
+          <div class="page-header">
+            <div class="page-header-left">
+              <a href="#">Home</a>
+            </div>
+            <div class="page-header-right">
+              <ul class="page-header-right-menu">
+                <li class="login-link-list">
+                  <a href="#">
+                    Login
+                    <i class="fa fa-chevron-down" style="padding-left: 5px;"></i>
+                    <i class="fa fa-chevron-up" style="padding-left: 5px;"></i>
+                  </a>
+                  <ul class="login-sublink">
+                    <li><a href="#">Administrator</a></li>
+                    <li><a href="#">Employee</a></li>
+                    <li><a href="#">Customer</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="contactus-li">Contact Us</a></li>
+                <li><a href="#" class="aboutus-li">About Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-us">
+      <div class="horizontal-separator">
+        <hr>
+      </div>
+      <div id="circle"></div>
+      <div class="circle-icons">
+        <i class="fa fa-envelope-o fa-lg"></i>
+        &nbsp;|&nbsp;
+        <i class="fa fa-phone fa-lg"></i>
+      </div>
+      <div class="contactus-profile-div">
+        <div class="contactus-profile-section">
+          <div class="contactus-profile-pic">
+            <img src="images/profile.jpg" class="dp-pic"/>
+          </div>
+          <div class="verticalLine"></div>
+          <div class="contactus-profile-info">
+            <i class="fa fa-user fa-lg"></i>
+            <input type="text" value="Prashanth Ambure" />
+            <br>
+            <i class="fa fa-mobile fa-lg"></i>
+            <input type="text" value="+91 9177677123" />
+            <br>
+            <i class="fa fa-phone fa-lg"></i>
+            <input type="text" value="040-6666666">
+            <br>
+            <i class="fa fa-envelope-o fa-lg"></i>
+            <input type="text" value="prashanth@abc.com" />
+            <br>
+            <i class="fa fa-location-arrow fa-lg"></i>
+            <input type="text" value="Parimala Nagar" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-us">
+      <div class="horizontal-separator">
+        <hr>
+      </div>
+      <div id="circle"></div>
+      <div class="circle-icons">
+        <i class="fa fa-envelope-o fa-lg"></i>
+        &nbsp;|&nbsp;
+        <i class="fa fa-phone fa-lg"></i>
+      </div>
+    </div>
+  </body>
+</html>

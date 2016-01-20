@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700|Quicksand:700);
+
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.page-div {
+	background: url('../images/29808.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+
+.page-overlay {
+	background: -moz-linear-gradient(top, rgba(43, 48, 62, 0.85) 1%, rgba(43, 48, 62, 0.85) 2%, rgba(43, 48, 62, 0.76) 33%, rgba(43, 48, 62, 0.55) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(43, 48, 62, 0.85)), color-stop(2%, rgba(43, 48, 62, 0.85)), color-stop(33%, rgba(43, 48, 62, 0.76)), color-stop(100%, rgba(43, 48, 62, 0.55)));
+  background: -webkit-linear-gradient(top, rgba(43, 48, 62, 0.85) 1%, rgba(43, 48, 62, 0.85) 2%, rgba(43, 48, 62, 0.76) 33%, rgba(43, 48, 62, 0.55) 100%);
+  background: -o-linear-gradient(top, rgba(43, 48, 62, 0.85) 1%, rgba(43, 48, 62, 0.85) 2%, rgba(43, 48, 62, 0.76) 33%, rgba(43, 48, 62, 0.55) 100%);
+  background: -ms-linear-gradient(top, rgba(43, 48, 62, 0.85) 1%, rgba(43, 48, 62, 0.85) 2%, rgba(43, 48, 62, 0.76) 33%, rgba(43, 48, 62, 0.55) 100%);
+  background: linear-gradient(to bottom, rgba(43, 48, 62, 0.85) 1%, rgba(43, 48, 62, 0.85) 2%, rgba(43, 48, 62, 0.76) 33%, rgba(43, 48, 62, 0.55) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d92b303e', endColorstr='#8c2b303e', GradientType=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.page-pattern {
+	background-image: url(../images/pattern.png);
+	background-repeat: repeat;
+	height: 100%;
+  overflow: auto;
+}
+
+.page-header {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: large;
+  margin: 40px 100px;
+}
+
+.page-header-left {
+  width: 25%;
+  float: left;
+}
+
+.page-header-right {
+  width: 75%;
+  float: right;
+  text-align: right;
+}
+
+.page-header-right>.page-header-right-menu {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-header-right>.page-header-right-menu>li {
+  display: inline-block;
+  padding-left: 75px;
+}
+
+.page-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login-sublink {
+    list-style: none;
+    margin: 0px;
+    padding-left: 25px;
+    position: absolute;
+    font-size: 15px;
+    text-align: left;
+}
+
+.login-sublink li {
+  padding-top: 10px;
+}
+
+.contact-us {
+  /*height: 100vh;*/
+  padding-top: 50px;
+}
+
+.horizontal-separator {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.circle-icons {
+    margin-left: 5.25%;
+    margin-top: -60px;
+    text-align: center;
+}
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    border: 1px solid black;
+    margin-left: 50%;
+    margin-top: -60px;
+    background: #ffffff;
+}
+
+.contactus-profile-section {
+    height: 300px;
+    width: 50%;
+    margin: 5% 25% 25% 25%;
+    background-color: brown;
+    border-radius: 30px;    
+}
+
+.contactus-profile-pic {
+  float: left;
+}
+
+.contactus-profile-pic>.dp-pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.verticalLine {
+  border-left: 1px solid darkgray;
+  height: 300px;
+  margin-left: 50px;
+  float: left;
+}
+
+.contactus-profile-info {
+  float: left;
+  padding-left: 100px;
+}
+
+.contactus-profile-info>input {
+    border: none;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: brown;
+    font-size: x-large;
+}
+
+.about-us {
+  height: 100vh;
+  padding-top: 50px;
+}

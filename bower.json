@@ -1,0 +1,21 @@
+{
+  "name": "lic-postal-ss",
+  "description": "Self Service web application for postal agents and customers",
+  "main": "",
+  "authors": [
+    "Prashanth Ambure <p.soccer10@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Postal",
+    "LIC",
+    "SelfService"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "#2.1.4",
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}
